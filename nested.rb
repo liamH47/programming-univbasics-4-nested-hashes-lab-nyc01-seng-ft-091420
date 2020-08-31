@@ -42,11 +42,10 @@ def adding_matz
 #   :languages => ["LISP", "C"]
 # }
 # return the entire updated hash
-
-	programmer_hash = 
+programmer_hash = 
  		{
- 		  :yukihiro_matsumoto => {
-        :known_for => "Ruby"
+      :yukihiro_matsumoto => {
+        :known_for => "Ruby",
         :languages => ["LISP", "C"]
       },
       :grace_hopper => {
@@ -61,8 +60,8 @@ def adding_matz
         :known_for => "Unix",
         :languages => ["C"]
       }
- 		}
- programmer_hash
+    }
+	
 end
 
 def changing_alan
